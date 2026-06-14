@@ -10,8 +10,12 @@
 export const EMAILJS_CONFIG = {
   PUBLIC_KEY: '4VfJKR18i_Ktgp7M4', // Replace with your EmailJS public key
   SERVICE_ID: 'service_2elgqtd', // Replace with your EmailJS service ID
-  USER_TEMPLATE_ID: 'template_s6e3k9e', // Template for user confirmation
-  ADMIN_TEMPLATE_ID: 'template_6nq9zmz', // Template for admin notification
+  EVENT_USER_TEMPLATE_ID: 'template_s6e3k9e', // Template for user confirmation
+  EVENT_ADMIN_TEMPLATE_ID: 'template_6nq9zmz', // Template for admin notification
+  JOIN_USER_TEMPLATE_ID: 'template_0ufjwvk',
+  JOIN_ADMIN_TEMPLATE_ID: 'template_3t4tbdi',
+  CONTACT_USER_TEMPLATE_ID: 'template_uqcxccn',
+  CONTACT_ADMIN_TEMPLATE_ID: 'template_jxjjs7x',
 };
 
 export const ADMIN_EMAIL = 'ssji2006@gmail.com';

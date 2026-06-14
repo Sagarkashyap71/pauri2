@@ -22,26 +22,39 @@ export default function Contact() {
     setStatus('sending');
 
     try {
-      await emailjs.send(
-        EMAILJS_CONFIG.SERVICE_ID,
-        EMAILJS_CONFIG.ADMIN_TEMPLATE_ID,
-        {
-          to_email: ADMIN_EMAIL,
-          user_name: formData.name,
-          user_email: formData.email,
-          subject: formData.subject,
-          message: formData.message,
-          registration_type: 'Contact Form Message',
-        },
-        EMAILJS_CONFIG.PUBLIC_KEY
-      );
+  // Send to Admin
+  await emailjs.send(
+    EMAILJS_CONFIG.SERVICE_ID,
+    EMAILJS_CONFIG.CONTACT_ADMIN_TEMPLATE_ID,
+    {
+      to_email: ADMIN_EMAIL,
+      user_name: formData.name,
+      user_email: formData.email,
+      subject: formData.subject,
+      message: formData.message,
+    },
+    EMAILJS_CONFIG.PUBLIC_KEY
+  );
 
-      setStatus('success');
-    } catch {
-      console.log('Email service not configured. Contact data:', formData);
-      setStatus('success');
-    }
-  };
+  // Send confirmation to User
+  await emailjs.send(
+    EMAILJS_CONFIG.SERVICE_ID,
+    EMAILJS_CONFIG.CONTACT_USER_TEMPLATE_ID,
+    {
+      to_name: formData.name,
+      to_email: formData.email,
+      user_name: formData.name,
+      subject: formData.subject,
+    },
+    EMAILJS_CONFIG.PUBLIC_KEY
+  );
+
+  setStatus('success');
+} catch {
+  console.log('Email service not configured. Contact data:', formData);
+  setStatus('success');
+}
+}
 
   return (
     <section id="contact" className="relative py-24 bg-gradient-to-b from-gray-50 to-white overflow-hidden">

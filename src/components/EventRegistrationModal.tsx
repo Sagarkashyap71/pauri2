@@ -72,7 +72,7 @@ export default function EventRegistrationModal({ event, isOpen, onClose }: Props
       // Send confirmation to user
       await emailjs.send(
         EMAILJS_CONFIG.SERVICE_ID,
-        EMAILJS_CONFIG.USER_TEMPLATE_ID,
+        EMAILJS_CONFIG.EVENT_USER_TEMPLATE_ID,
         templateParamsUser,
         EMAILJS_CONFIG.PUBLIC_KEY
       );
@@ -80,7 +80,7 @@ export default function EventRegistrationModal({ event, isOpen, onClose }: Props
       // Send notification to admin
       await emailjs.send(
         EMAILJS_CONFIG.SERVICE_ID,
-        EMAILJS_CONFIG.ADMIN_TEMPLATE_ID,
+        EMAILJS_CONFIG.EVENT_ADMIN_TEMPLATE_ID,
         templateParamsAdmin,
         EMAILJS_CONFIG.PUBLIC_KEY
       );

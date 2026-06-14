@@ -49,14 +49,14 @@ export default function JoinTeam() {
     try {
       await emailjs.send(
         EMAILJS_CONFIG.SERVICE_ID,
-        EMAILJS_CONFIG.USER_TEMPLATE_ID,
+        EMAILJS_CONFIG.JOIN_USER_TEMPLATE_ID,
         templateParamsUser,
         EMAILJS_CONFIG.PUBLIC_KEY
       );
 
       await emailjs.send(
         EMAILJS_CONFIG.SERVICE_ID,
-        EMAILJS_CONFIG.ADMIN_TEMPLATE_ID,
+        EMAILJS_CONFIG.JOIN_ADMIN_TEMPLATE_ID,
         templateParamsAdmin,
         EMAILJS_CONFIG.PUBLIC_KEY
       );
