@@ -24,5 +24,5 @@ export const ADMIN_PHONE = ['9050842890', '9899636013'];
 export const SOCIAL_LINKS = {
   instagram: 'https://www.instagram.com/pauri_eco_warriors/',
   youtube: 'http://www.youtube.com/@Pauri_eco_warriors',
-  facebook: 'https://www.facebook.com/share/p/1E1H6ygACj/',
+  facebook: 'https://www.facebook.com/people/Anshika-Gaur-Manvi-Rawat/61583198425288/',
 };
