@@ -12,10 +12,10 @@ export const EMAILJS_CONFIG = {
   SERVICE_ID: 'service_2elgqtd', // Replace with your EmailJS service ID
   EVENT_USER_TEMPLATE_ID: 'template_s6e3k9e', // Template for user confirmation
   EVENT_ADMIN_TEMPLATE_ID: 'template_6nq9zmz', // Template for admin notification
-  JOIN_USER_TEMPLATE_ID: 'template_0ufjwvk',
-  JOIN_ADMIN_TEMPLATE_ID: 'template_3t4tbdi',
-  CONTACT_USER_TEMPLATE_ID: 'template_uqcxccn',
-  CONTACT_ADMIN_TEMPLATE_ID: 'template_jxjjs7x',
+  JOIN_USER_TEMPLATE_ID: 'template_uqcxccn',       //uqcxccn
+  JOIN_ADMIN_TEMPLATE_ID: 'template_jxjjs7x',      //jxjjs7x
+  CONTACT_USER_TEMPLATE_ID: 'template_0ufjwvk',    //0ufjwvk
+  CONTACT_ADMIN_TEMPLATE_ID: 'template_3t4tbdi',   //3t4tbdi
 };
 
 export const ADMIN_EMAIL = 'ssji2006@gmail.com';
