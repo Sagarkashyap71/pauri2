@@ -70,7 +70,7 @@ export const events: EventData[] = [
   {
     id: 'wildlife-conservation-2025',
     title: 'Wildlife Conservation Trek',
-    date: 'May 10, 2025',
+    date: 'July 10, 2026',
     time: '6:00 AM - 6:00 PM',
     location: 'Binsar Wildlife Sanctuary Area',
     description: 'A guided trek focused on understanding local wildlife, identifying endangered species, and learning about conservation efforts in the region.',
@@ -88,7 +88,7 @@ export const events: EventData[] = [
   {
     id: 'plastic-free-campaign-2025',
     title: 'Plastic Free Pauri Campaign',
-    date: 'June 5, 2025',
+    date: 'June 29, 2026',
     time: '10:00 AM - 3:00 PM',
     location: 'Multiple locations across Pauri',
     description: 'On World Environment Day, help us distribute cloth bags, educate shopkeepers, and collect plastic waste from markets across Pauri district.',
@@ -106,7 +106,7 @@ export const events: EventData[] = [
   {
     id: 'school-program-2025',
     title: 'Green Schools Initiative',
-    date: 'July 15, 2025',
+    date: 'July 25, 2026',
     time: '9:00 AM - 2:00 PM',
     location: 'Government Schools, Pauri District',
     description: 'Visit schools across Pauri to educate students about environmental conservation, set up recycling stations, and plant trees in school premises.',
