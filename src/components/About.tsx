@@ -38,7 +38,7 @@ export default function About() {
           <div className="relative">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-eco-900/10">
               <img
-                src="/images/about-team.jpg"
+                src="/images/about-team.png"
                 alt="Pauri Eco Warriors Team"
                 className="w-full h-[500px] object-cover"
               />
