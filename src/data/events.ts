@@ -16,7 +16,7 @@ export const events: EventData[] = [
   {
     id: 'river-cleanup-2025',
     title: 'Alaknanda River Cleanup Drive',
-    date: 'February 15, 2025',
+    date: 'June 27, 2026',
     time: '7:00 AM - 1:00 PM',
     location: 'Alaknanda River Banks, Srinagar Garhwal',
     description: 'Join us for a massive river cleanup drive along the beautiful Alaknanda river. Help remove plastic waste and debris to restore the natural beauty of our rivers.',
@@ -34,7 +34,7 @@ export const events: EventData[] = [
   {
     id: 'tree-plantation-2025',
     title: 'Mountain Reforestation Campaign',
-    date: 'March 21, 2025',
+    date: 'July 21, 2026',
     time: '8:00 AM - 4:00 PM',
     location: 'Kandoliya Hills, Pauri Garhwal',
     description: 'Plant native trees in the Himalayan slopes of Pauri. We aim to plant 5000+ trees including Oak, Rhododendron, and Deodar to combat deforestation.',
@@ -52,7 +52,7 @@ export const events: EventData[] = [
   {
     id: 'awareness-walk-2025',
     title: 'Eco Awareness Rally & Workshop',
-    date: 'April 22, 2025',
+    date: 'July 22, 2026',
     time: '9:00 AM - 5:00 PM',
     location: 'Pauri Town Center to Khirsu',
     description: 'On Earth Day, join our awareness rally through Pauri town followed by workshops on waste management, composting, and sustainable living.',
@@ -70,7 +70,7 @@ export const events: EventData[] = [
   {
     id: 'wildlife-conservation-2025',
     title: 'Wildlife Conservation Trek',
-    date: 'July 10, 2026',
+    date: 'August 10, 2026',
     time: '6:00 AM - 6:00 PM',
     location: 'Binsar Wildlife Sanctuary Area',
     description: 'A guided trek focused on understanding local wildlife, identifying endangered species, and learning about conservation efforts in the region.',
@@ -106,7 +106,7 @@ export const events: EventData[] = [
   {
     id: 'school-program-2025',
     title: 'Green Schools Initiative',
-    date: 'July 25, 2026',
+    date: 'June 25, 2026',
     time: '9:00 AM - 2:00 PM',
     location: 'Government Schools, Pauri District',
     description: 'Visit schools across Pauri to educate students about environmental conservation, set up recycling stations, and plant trees in school premises.',
