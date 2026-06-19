@@ -3,45 +3,65 @@ import { X, ChevronLeft, ChevronRight, Camera } from 'lucide-react';
 
 const galleryImages = [
   {
-    url: 'https://images.pexels.com/photos/7656995/pexels-photo-7656995.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
-    title: 'River Cleanup Drive',
-    desc: 'Volunteers cleaning the river banks',
+    url: '/images/cleanup-drive.png',
+    title: 'Cleanliness Drive',
+    desc: 'Volunteers working together to keep Pauri clean',
   },
   {
-    url: 'https://images.pexels.com/photos/9544471/pexels-photo-9544471.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
-    title: 'Forest Conservation',
-    desc: 'Protecting local forest ecosystems',
+    url: '/images/team-photo.png',
+    title: 'Our Volunteers',
+    desc: 'Dedicated members of Pauri Eco Warriors',
   },
   {
-    url: 'https://images.pexels.com/photos/28662953/pexels-photo-28662953.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
-    title: 'Tree Plantation',
-    desc: 'Planting native saplings in the hills',
+    url: '/images/award.png',
+    title: 'Clean Pauri Save Pauri Award',
+    desc: 'Recognition for environmental contributions',
   },
   {
-    url: 'https://images.pexels.com/photos/9543738/pexels-photo-9543738.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
-    title: 'Community Cleanup',
-    desc: 'Working together for a cleaner environment',
+    url: '/images/award-ceremony.png',
+    title: 'Award Ceremony',
+    desc: 'Celebrating our achievements',
   },
   {
-    url: 'https://images.pexels.com/photos/7656988/pexels-photo-7656988.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
-    title: 'Sunset Cleanup',
-    desc: 'Evening cleanup drive near Pauri',
+    url: '/images/banner.png',
+    title: 'Pauri Eco Warriors',
+    desc: 'Together for a greener future',
   },
   {
-    url: 'https://images.pexels.com/photos/9543407/pexels-photo-9543407.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
-    title: 'Forest Patrol',
-    desc: 'Monitoring forest health in the region',
+    url: '/images/kids-cleanup.png',
+    title: 'Community Participation',
+    desc: 'Young volunteers leading by example',
   },
   {
-    url: 'https://images.pexels.com/photos/7656743/pexels-photo-7656743.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
-    title: 'Riverside Action',
-    desc: 'Keeping our rivers clean and flowing',
+    url: '/images/pauri-view.png',
+    title: 'Beautiful Pauri',
+    desc: 'Protecting the natural beauty of our region',
   },
   {
-    url: 'https://images.pexels.com/photos/28662952/pexels-photo-28662952.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
-    title: 'Group Plantation',
-    desc: 'Community tree planting event',
+    url: '/images/volunteers.png',
+    title: 'Environmental Action',
+    desc: 'Creating impact through collective effort',
   },
+  {
+  url: '/images/team-bonding.png',
+  title: 'Moments of Friendship',
+  desc: 'Building strong bonds while working for a greener Pauri',
+  },
+  {
+  url: '/images/officials.png',
+  title: 'Community Partnership',
+  desc: 'Working together for environmental change',
+  },
+  {
+  url: '/images/cultural-event.png',
+  title: 'Cultural Heritage Event',
+  desc: 'Celebrating local traditions and community spirit',
+  },
+  {
+  url: '/images/founders.png',
+  title: 'Manvi & Anshika',
+  desc: 'Founders of Pauri Eco Warriors, inspiring youth-led environmental action in Pauri',
+  }
 ];
 
 export default function Gallery() {

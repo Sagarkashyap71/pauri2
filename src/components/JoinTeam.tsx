@@ -102,7 +102,6 @@ export default function JoinTeam() {
               { icon: '📜', title: 'Certificates & Recognition', desc: 'Get volunteer certificates and be recognized for your efforts' },
               { icon: '🎓', title: 'Learn & Grow', desc: 'Attend workshops, treks, and gain hands-on conservation experience' },
               { icon: '🏔️', title: 'Explore Pauri', desc: 'Discover the beautiful hidden gems of Pauri Garhwal' },
-              { icon: '💚', title: 'Free Eco Merchandise', desc: 'Get team t-shirts, badges, and eco-friendly merchandise' },
             ].map((benefit) => (
               <div key={benefit.title} className="flex items-start gap-4 group">
                 <span className="text-2xl flex-shrink-0 group-hover:scale-125 transition-transform duration-300">{benefit.icon}</span>
